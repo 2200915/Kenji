@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIODATA</title>
+</head>
+<style>
+.container{
+    align-items: center;
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+#title{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(255, 205, 140);
+}
+body, html{
+    background-image: radial-gradient(#1c1c1c, #010101);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#picture{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-position: center;
+    color: rgb(255, 205, 140);
+}
+form{
+    text-align: center;
+}
+::placeholder{
+    font-style: italic;
+    font-weight: lighter;
+}
+input[type=text]{
+    padding: 10px, 10px;
+    border: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+input[type=tel]{
+    padding: 10px, 10px;
+    border: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+</style>
+<body>
+    <div class="container">
+        <div id="title">
+            <h2>BIODATA</h2>
+        </div>
+        <div id="picture">
+            <img src="https://history.ucr.edu/sites/g/files/rcwecm1916/files/styles/form_preview/public/blank-profile-picture-png.png?
+            itok=MQ-iPuNG" alt="profile icon" width="15%">
+        </div>    
+            <form>
+                First Name: 
+                <input type="text" placeholder="First Name" required> <br> <br>
+                Last Name:
+                <input type="text" placeholder="Last Name" required> <br> <br>
+                <label for="course">Course:</label>
+                    <select name="course" id="course">
+                        <option value="--">--</option>
+                        <option value="BSIT">BSIT</option>
+                        <option value="BSCS">BSCS</option>
+                        <option value="BSCE">BSCE</option>
+                    </select>
+                    <input type="date"> <br> <br>
+                Address:
+                <input type="text" placeholder="Address1" required> 
+                <input type="text" placeholder="Address2" required> <br> <br>
+                Country:
+                <input type="text" placeholder="Enter Country" required>
+                <input type="text" placeholder="Enter City" required> <br> <br>
+                Mobile Number:
+                <input type="tel" placeholder="+639" required> <br> <br>
+                Education: <br>
+                <input type="text" placeholder="Elementary" size="40px" required> <br>
+                <input type="text" placeholder="Highschool" size="40px" required> <br>
+                <input type="text" placeholder="College" size="40px" required> <br> <br>
+                <input type="submit">
+
+
+                
+            </form>
+    </div>
+</body>
+</html>
